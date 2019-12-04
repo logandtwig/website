@@ -14,17 +14,17 @@
   "author": "Pär Nilsson",
   "license": "MIT",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.10.2",
-    "autoprefixer": "^9.6.1",
-    "bootstrap": "^4.3.1",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "autoprefixer": "^9.7.3",
+    "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
-    "node-sass": "^4.12.0",
-    "popper.js": "^1.15.0",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0",
     "postcss-cli": "^6.1.3",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended-scss": "^3.3.0",
     "stylelint-config-standard": "^18.3.0",
-    "stylelint-order": "^3.0.1",
-    "stylelint-scss": "^3.9.4"
+    "stylelint-order": "^3.1.1",
+    "stylelint-scss": "^3.13.0"
   }
 }
