@@ -11,15 +11,16 @@ cache:
 
 build:
   stage: build
-  image: node:4.2.2
+  image: node:10.15.0
   script:
    - npm install
+   - npm rebuild node-sass
    - npm run build
   artifacts:
     paths:
       - dist/
 
-deploy to production:
+production:
   stage: deploy
   environment: production
   image: python:latest
@@ -29,16 +30,15 @@ deploy to production:
   only:
   - master
 
-deploy to pages:
+pages:
   stage: deploy
   image: alpine:latest
   environment: staging
   script:
   - mkdir -p ./public
-  - cp ./dist/* ./public/
+  - cp -r ./dist/* ./public/
   artifacts:
     paths:
     - public
   except:
   - master
-
