@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Log & Twig',
-  pathPrefix: '/website/',
+  pathPrefix: '/',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
