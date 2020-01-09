@@ -5,7 +5,7 @@
 
       <h3
         class="subtitle"
-      >A group of skilled people that love building great software.</h3>
+      >A group of skilled people that loves building great software.</h3>
     </div>
   </Layout>
 </template>

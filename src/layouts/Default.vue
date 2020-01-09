@@ -29,9 +29,9 @@
     </div>
     <footer>
       <div class="footer-content">
-        <p>Log & Twig AB 2019</p>
+        <p>Log & Twig AB 2020</p>
         <a href="mailto:contact@logandtwig.se">contact@logandtwig.se</a>
-        <a href="https://www.linkedin.com/company/logntwig">@linkedin</a>
+        <a href="https://www.linkedin.com/company/logandtwig">@linkedin</a>
       </div>
     </footer>
   </div>
